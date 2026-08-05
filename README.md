@@ -8,7 +8,7 @@ Trained for 200 epochs (~390 steps/epoch, ~1.5 min/epoch, ~5 hours total on T4).
 
 | Forward diffusion process | DDPM samples (1000 steps) | DDIM samples (50 steps) |
 |---|---|---|
-| ![image](https://github.com/sreenathsie/ddpm-cifar10-pytorch/blob/main/Image/download%20(1).png) | ![ddpm](assets/ddpm_samples.png) | ![ddim](assets/ddim_samples.png) |
+| ![image](https://github.com/sreenathsie/ddpm-cifar10-pytorch/blob/main/Image/download.png) | ![ddpm](assets/ddpm_samples.png) | ![ddim](assets/ddim_samples.png) |
 
 DDIM recovers comparable sample quality in 20x fewer steps, confirming the sampler reformulation is correct.
 
